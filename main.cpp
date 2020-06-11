@@ -2,7 +2,7 @@
 
 #include "opencv2/opencv.hpp"
 #if !defined(HAVE_OPENCV_XFEATURES2D)
-    #error "OpenCV is not compiled with contrib modules. Please use OpenCV with conritb modules."
+    #error "OpenCV is not compiled with contrib modules. Please use OpenCV with contrib modules."
 #endif
 #include "opencv2/xfeatures2d.hpp"
 
